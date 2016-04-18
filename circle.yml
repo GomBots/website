@@ -9,7 +9,7 @@ dependencies:
   pre:
     - go get -v github.com/spf13/hugo
     - git config --global user.name "CircleCI"
-    - git config --global user.email."circleci@example.com"
+    - git config --global user.email "circleci@example.com"
 
 deployment:
   master:
