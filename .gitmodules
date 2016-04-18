@@ -1,3 +1,6 @@
 [submodule "public"]
   path = public
   url = git@github.com:GomBots/gombots.github.io.git
+[submodule "hugo-theme-air"]
+  path = themes/hugo-theme-air
+  url = https://github.com/syui/hugo-theme-air
