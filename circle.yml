@@ -16,7 +16,7 @@ deployment:
     branch: master
     commands:
       - git clone git@github.com:GomBots/gombots.github.io.git public
-      - hugo
+      - hugo --theme=hugo-theme-air
       - cd public && git status
       - cd public && git add --all
       - cd public && git commit -m "Update (`date '+%F %T %Z'`) [ci skip]"
